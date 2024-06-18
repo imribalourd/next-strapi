@@ -1,0 +1,27 @@
+{
+  "name": "strapi-provider-email-mandrill",
+  "version": "1.0.0",
+  "description": "Mandrill provider for strapi email",
+  "keywords": [
+    "email",
+    "strapi",
+    "mandrill"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
+  "author": {
+    "name": "maBible",
+    "email": "technique@mabible.com",
+    "url": "https://mabible.com/"
+  },
+  "dependencies": {
+    "@mailchimp/mailchimp_transactional": "^1.0.59"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.5",
+    "typescript": "^4.0.0"
+  }
+}
